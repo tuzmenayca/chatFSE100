@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background("red");
+  background(140);
 }
 
 function chat() {

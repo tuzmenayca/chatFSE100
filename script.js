@@ -2,10 +2,10 @@ let input;
 let response;
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(1200, 400);
   textSize("12");
   input = createInput();
-  input.size(400, 50);
+  input.size(400, 30);
   input.position(20, height - 50);
   button = createButton('Send');
   button.position(input.x + input.width + 20, height - 50);
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(140);
+  background(220);
 }
 
 function chat() {

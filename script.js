@@ -30,7 +30,7 @@ function chat() {
     response.html('I need more information to check the weather. <br> Please tell me the city.');
   } else if (message.toLowerCase().includes('hello') || message.toLowerCase().includes('hi')) {
     response.html('Hello there! How can I help you?');
-  } else if (message.toLowerCase().includes('name of client') ) {
+  } else if (message.toLowerCase().includes('name of client') || message.toLowerCase().includes('client name') {
     response.html('The name of the customer is Valerie.');
   } else if (message.toLowerCase().includes('client need') || message.toLowerCase().includes('need')) {
     response.html('Something that can help the coach manages her volleyball team,\n<br>' + 

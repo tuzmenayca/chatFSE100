@@ -5,7 +5,7 @@ function setup() {
   createCanvas(800, 400);
   textSize("12");
   input = createInput();
-  input.size(400, 30);
+  input.size(400, 50);
   input.position(20, height - 50);
   button = createButton('Send');
   button.position(input.x + input.width + 20, height - 50);
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(20);
+  background("red");
 }
 
 function chat() {

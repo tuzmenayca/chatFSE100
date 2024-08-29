@@ -74,7 +74,7 @@ function chat() {
   } else if (message.toLowerCase().includes('platform') || message.toLowerCase().includes('use application')) {
         response.html('They would like it work on a phone and a laptop'); 
   } else if (message.toLowerCase().includes('language') || message.toLowerCase().includes('development')) { 
-        response.html('No. They only have hear about Java but they are open to suggestions from the developers.'); 
+        response.html('No. They only have heard about Java but they are open to suggestions from the developers.'); 
   }  else {
     response.html('I am still learning. I can\'t understand that yet.');
   }
